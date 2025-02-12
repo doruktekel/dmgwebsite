@@ -25,10 +25,10 @@ export default function ContactForm() {
 
     try {
       const res = await emailjs.send(
-        "service_pk9chwn", // EmailJS Service ID
-        "template_e46ix9h", // EmailJS Template ID
-        formData,
-        "vsDai9IFvajVoW2jd" // EmailJS Public Key
+        process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID, // process.env.EMAILJS_SERVICE_ID,  EmailJS Service ID
+        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID,
+        formData, // process.env.EMAILJS_TEMPLATE_ID, EmailJS Template ID
+        process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_ID //process.env.EMAILJS_PUBLIC_ID // EmailJS Public Key
       );
 
       if (res.status === 200) {
