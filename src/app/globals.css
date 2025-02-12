@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+/* ::-webkit-scrollbar {
+  display: none;
+  visibility: hidden;
+  opacity: 0;
+} */
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  /* color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif; */
+  scroll-behavior: smooth;
+}
+
+.swiper {
+  width: 100%;
+  height: 80dvh;
+  object-fit: cover;
+}
+
+/* styles/globals.css veya benzeri bir global CSS dosyasına */
+.swiper-button-next,
+.swiper-button-prev {
+  color: gainsboro !important; /* Okların rengini kırmızı yapmak */
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  color: #ffffff !important;
+}
