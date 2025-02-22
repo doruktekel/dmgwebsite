@@ -2,16 +2,18 @@ import { Abel, Raleway } from "next/font/google";
 import { ToastContainer } from "react-toastify";
 import "./globals.css";
 import Header from "./components/Header";
-import Slider from "./components/MainSlider";
-import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 
 const abel = Abel({
   weight: "400",
+  subsets: ["latin"], // Alt küme belirtildi
+  preload: false, // Preload devre dışı bırakıldı
 });
 
 const raleway = Raleway({
   weight: "400",
+  subsets: ["latin"], // Alt küme belirtildi
+  preload: false, // Preload devre dışı bırakıldı
 });
 
 export const metadata = {
@@ -22,9 +24,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={raleway.className}>
+      <body className={`${raleway.className} ${abel.className}`}>
+        {" "}
+        {/* Hem Abel hem Raleway className ekleniyor */}
         <Header />
-
         {children}
         <Footer />
         <ToastContainer />
