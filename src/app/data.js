@@ -65,20 +65,28 @@ export const allData = [
   },
   {
     id: "0002",
-    header: "gethr5465wgergergwegergerg5g45",
-    info: "Tailored to its users and their activities, allows invest each euro in what you really need, the most economical way of making and their activities, allows invest each euro in what you really need, the most economical way of making and their activities, allows invest each euro in what you really need, the most economical way of making architecture.",
-    description: "",
+    header:
+      "Ahiboz Hububat Alım Tesisleri Çelik Silolara Ait Alt Yapı Ve Drenaj İşleri Gimat Et Teşhir Salonu Tadilat Onarım İşleri",
+    info: "İşveren: Türkiye Odalar ve Borsalar Birliği ",
+    description: "Sözleşme Yılı : 2020",
     type: "reformlar",
-    mainImage: "/1.jpg",
-    images: ["/1.jpg", "/2.jpg", "/3.jpg"],
+    mainImage: "/Ahiboz_Hububat_Alım_Tesisleri_01.webp",
+    images: [
+      "/Ahiboz_Hububat_Alım_Tesisleri_01.webp",
+      "/Ahiboz_Hububat_Alım_Tesisleri_02.webp",
+    ],
   },
   {
     id: "0001",
-    header: "allows invest  asdasda     asf erwgergsd",
-    info: "Tailored to its users and their activities, allows invest each euro in what and their activities, allows invest each euro in what you really need, the most economical way of making you really need, the most economical way of making architecture.",
+    header: "TOBB Karaman Fen Lisesi Çevre Düzenlemesi İnşaatı ",
+    info: "İşveren: Türkiye Odalar ve Borsalar Birliği",
     description: "",
     type: "evler",
-    mainImage: "/1.jpg",
-    images: ["/1.jpg", "/2.jpg", "/3.jpg"],
+    mainImage: "/tobb_karaman_fen_03.webp",
+    images: [
+      "/tobb_karaman_fen_03.webp",
+      "/tobb_karaman_fen_02.webp",
+      "/tobb_karaman_fen_01.webp",
+    ],
   },
 ];

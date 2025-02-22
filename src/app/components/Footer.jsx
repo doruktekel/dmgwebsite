@@ -19,7 +19,7 @@ const Footer = () => {
             >
               <FaLocationArrow />
             </Link>
-            <p>Aşağı Öveçler, 1333. Sk. No:15 D:2, 06460 Çankaya/Ankara</p>
+            <p>AŞAĞIÖVEÇLER MAHALLESİ 1333. CADDE NO : 15/2 – ÇANKAYA/ANKARA</p>
           </div>
           <div className="h-5 w-[1px] bg-slate-900  hidden md:block"></div>
 
@@ -31,7 +31,7 @@ const Footer = () => {
 
           <div className="flex gap-1 items-center">
             <MdEmail />
-            <p>dmg@gmail.com</p>
+            <p>info@dmginsaat.com</p>
           </div>
         </div>
         <div className="flex gap-2 py-4 items-center justify-center">

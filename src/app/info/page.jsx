@@ -16,29 +16,16 @@ const Information = () => {
         <p className="text-2xl font-semibold self-center">Biz Kimiz ?</p>
         <hr />
         <p className="text-justify abel-font">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab dolorum
-          ipsam non exercitationem incidunt provident esse, est odit illo
-          tenetur, optio ad expedita voluptas doloremque earum error, sint quas.
-          Distinctio.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
-          dolorum ipsam non exercitationem incidunt provident esse, est odit
-          illo tenetur, optio ad expedita voluptas doloremque earum error, sint
-          quas. Distinctio.Lorem ipsum dolor sit amet consectetur adipisicing
-          elit. Ab dolorum ipsam non exercitationem incidunt provident esse, est
-          odit illo tenetur, optio ad expedita voluptas doloremque earum error,
-          sint quas. Distinctio.Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Ab dolorum ipsam non exercitationem incidunt
-          provident esse, est odit illo tenetur, optio ad expedita voluptas
-          doloremque earum error, sint quas. Distinctio.Lorem ipsum dolor sit
-          amet consectetur adipisicing elit. Ab dolorum ipsam non exercitationem
-          incidunt provident esse, est odit illo tenetur, optio ad expedita
-          voluptas doloremque earum error, sint quas. Distinctio.Lorem ipsum
-          dolor sit amet consectetur adipisicing elit. Ab dolorum ipsam non
-          exercitationem incidunt provident esse, est odit illo tenetur, optio
-          ad expedita voluptas doloremque earum error, sint quas.
-          Distinctio.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
-          dolorum ipsam non exercitationem incidunt provident esse, est odit
-          illo tenetur, optio ad expedita voluptas doloremque earum error, sint
-          quas. Distinctio.
+          DMG İNŞAAT PROJE MÜŞAVİRLİK TAAHÜT SANAYİ VE TİC.LTD.ŞTİ.
+        </p>
+        <p className="text-justify abel-font">
+          {" "}
+          FİRMAMIZ ALT YAPI , ÜST YAPI VE İNCE İŞLER KONUSUNDA DENEYİMLİ
+          YÖNETİCİ VE TECRÜBELİ ŞANTİYE KADROSU İLE İNŞAAT SEKTÖRÜNDE SÖZ SAHİBİ
+          OLMAYI BENİMSEMİŞTİR. FİRMAMIZ ALTYAPI VE ÜSTYAPI ALANINDA TÜRKİYE
+          ODALAR VE BORSALAR BİRLİĞİ, ANKARA BÜYÜKŞEHİR BELEDİYESİ, ÖZEL
+          İNŞAATLAR VE ÇEŞİTLİ KAMU KURUM VE KURULUŞLARA HİZMET VERMEYE DEVAM
+          ETMEKTEDİR.
         </p>
         <hr />
         <div className="flex flex-col gap-10 items-center md:flex-row md:justify-between  py-20">
