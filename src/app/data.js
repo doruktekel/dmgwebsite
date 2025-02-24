@@ -60,11 +60,11 @@ export const allData = [
     info: "",
     description: "",
     type: "evler",
-    mainImage: "/AB_KAMPÜS_MUTFAK_01.webp",
+    mainImage: "/AB_kampus_mutfak_01.webp",
     images: [
-      "/AB_KAMPÜS_MUTFAK_01.webp",
-      "/AB_KAMPÜS_MUTFAK_02.webp",
-      "/AB_KAMPÜS_MUTFAK_03.webp",
+      "/AB_kampus_mutfak_01.webp",
+      "/AB_kampus_mutfak_02.webp",
+      "/AB_kampus_mutfak_03.webp",
     ],
   },
   {
