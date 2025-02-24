@@ -19,7 +19,7 @@ const Contact = () => {
             </div>
             <div className="w-full flex flex-col gap-2">
               <p className="font-semibold">Telefon</p>
-              <p className="text-justify">05324556291</p>
+              <p className="text-justify"> 0312 472 06 03</p>
             </div>
             <div className="w-full flex flex-col gap-2">
               <p className="font-semibold ">Mail</p>

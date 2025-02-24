@@ -19,11 +19,17 @@ const SingleItem = ({ data }) => {
         href={"/projects/" + type + "/" + id}
         className="hover:opacity-80 ease-in-out duration-300"
       >
-        <Image src={mainImage} alt={header} width={400} height={200} />
+        <Image
+          src={mainImage}
+          alt={header}
+          width={400}
+          height={200}
+          objectFit="cover"
+        />
       </Link>
       <div className="flex flex-col gap-4 mt-2 items-center sm:items-start">
         <div className="flex items-center gap-4">
-          <p>{type}</p>
+          <p>{type === "taahhut" ? "Taahhüt" : "Konut"}</p>
           <div className="w-2 h-2 bg-slate-800"></div>
         </div>
 

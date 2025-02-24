@@ -38,23 +38,23 @@ const Projects = () => {
         <div className="p-4 flex gap-4">
           <button
             className={` ${
-              activeType === "evler"
+              activeType === "taahhut"
                 ? "text-white bg-slate-700"
                 : "bg-gray-100 text-black"
             }  px-2 py-1 text-sm hover:text-white hover:bg-slate-700 `}
-            onClick={() => handleFilter("evler")}
+            onClick={() => handleFilter("taahhut")}
           >
-            Evler
+            Taahhütler
           </button>
           <button
             className={` ${
-              activeType === "reformlar"
+              activeType === "konut"
                 ? "text-white bg-slate-700"
                 : "bg-gray-100 text-black"
             }  px-2 py-1 text-sm hover:text-white hover:bg-slate-700 `}
-            onClick={() => handleFilter("reformlar")}
+            onClick={() => handleFilter("konut")}
           >
-            Reformlar
+            Konutlar
           </button>
         </div>
         <hr />

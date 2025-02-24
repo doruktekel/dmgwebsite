@@ -50,27 +50,27 @@ const TypePage = () => {
               router.push("/projects");
             }}
           >
-            Butun Projeler
+            Bütün Projeler
           </button>
           <button
             className={` ${
-              activeType === "evler"
+              activeType === "taahhut"
                 ? "text-white bg-slate-700"
                 : "bg-gray-100 text-black"
             }  px-2 py-1 text-sm hover:text-white hover:bg-slate-700 `}
-            onClick={() => filterItems("evler")}
+            onClick={() => filterItems("taahhut")}
           >
-            Evler
+            Taahhütler
           </button>
           <button
             className={` ${
-              activeType === "reformlar"
+              activeType === "konut"
                 ? "text-white bg-slate-700"
                 : "bg-gray-100 text-black"
             }  px-2 py-1 text-sm hover:text-white hover:bg-slate-700 `}
-            onClick={() => filterItems("reformlar")}
+            onClick={() => filterItems("konut")}
           >
-            Reformlar
+            Konutlar
           </button>
         </div>
         <hr />

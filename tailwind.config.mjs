@@ -11,6 +11,10 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        Raleway: ["Raleway", "sans-serif"],
+        Abel: ["Abel", "serif"],
+      },
     },
   },
   plugins: [],

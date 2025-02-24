@@ -13,7 +13,7 @@ const Header = () => {
               href={"/projects"}
               className="hover:opacity-50 duration-300 ease-in-out "
             >
-              <p className="font-bold text-lg">PROJELER</p>
+              <p className="font-bold text-lg font-Raleway">PROJELER</p>
             </Link>
           </li>
           <li>
@@ -21,7 +21,7 @@ const Header = () => {
               href={"/info"}
               className="hover:opacity-50 duration-300 ease-in-out "
             >
-              <p className="font-bold text-lg">HAKKIMIZDA</p>
+              <p className=" font-bold  text-lg font-Raleway">HAKKIMIZDA</p>
             </Link>
           </li>
           <li>
@@ -29,7 +29,7 @@ const Header = () => {
               href={"/contact"}
               className="hover:opacity-50 duration-300 ease-in-out "
             >
-              <p className="font-bold text-lg">İLETİŞİM</p>
+              <p className="font-bold text-lg font-Raleway">İLETİŞİM</p>
             </Link>
           </li>
         </ul>

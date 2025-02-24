@@ -15,20 +15,25 @@ const Information = () => {
       >
         <p className="text-2xl font-semibold self-center">Biz Kimiz ?</p>
         <hr />
+        {/* <p className="text-justify abel-font">
+            DMG İNŞAAT PROJE MÜŞAVİRLİK TAAHÜT SANAYİ VE TİC.LTD.ŞTİ.
+          </p> */}
         <p className="text-justify abel-font">
-          DMG İNŞAAT PROJE MÜŞAVİRLİK TAAHÜT SANAYİ VE TİC.LTD.ŞTİ.
+          DMG İnşaat, 2015 yılında kurulmuş dinamik ve yenilikçi bir inşaat
+          firmasıdır. Kuruluşumuzdan bu yana, inşaat sektöründe sağlam ve
+          estetik yapıların hayata geçirilmesi için çalışmaktayız. Misyonumuz ve
+          vizyonumuz; inşaat işinde uzmanlaşarak kaliteli, güvenilir ve modern
+          projeler gerçekleştirmek, müşteri memnuniyetini en üst düzeye
+          çıkarmaktır.
         </p>
         <p className="text-justify abel-font">
-          {" "}
-          FİRMAMIZ ALT YAPI , ÜST YAPI VE İNCE İŞLER KONUSUNDA DENEYİMLİ
-          YÖNETİCİ VE TECRÜBELİ ŞANTİYE KADROSU İLE İNŞAAT SEKTÖRÜNDE SÖZ SAHİBİ
-          OLMAYI BENİMSEMİŞTİR. FİRMAMIZ ALTYAPI VE ÜSTYAPI ALANINDA TÜRKİYE
-          ODALAR VE BORSALAR BİRLİĞİ, ANKARA BÜYÜKŞEHİR BELEDİYESİ, ÖZEL
-          İNŞAATLAR VE ÇEŞİTLİ KAMU KURUM VE KURULUŞLARA HİZMET VERMEYE DEVAM
-          ETMEKTEDİR.
+          Firmamız, inşaat ve dekorasyon alanlarında sunduğu geniş hizmet
+          yelpazesi ile sektörün farklı ihtiyaçlarına cevap vermektedir. Her
+          projemizde titizlikle çalışarak, detaylara verdiğimiz önem sayesinde
+          fonksiyonel ve estetik mekanlar oluşturuyoruz.
         </p>
         <hr />
-        <div className="flex flex-col gap-10 items-center md:flex-row md:justify-between  py-20">
+        {/* <div className="flex flex-col gap-10 items-center md:flex-row md:justify-between  py-20">
           <Image
             src={"/biz1.jpg"}
             layout="responsive"
@@ -50,9 +55,9 @@ const Information = () => {
               metodolojinin geliştirilmesine ilham veriyor.
             </p>
           </div>
-        </div>
+        </div> */}
       </motion.div>
-      <motion.div
+      {/* <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
@@ -154,7 +159,7 @@ const Information = () => {
             </p>
           </motion.div>
         </div>
-      </motion.div>
+      </motion.div> */}
     </div>
   );
 };

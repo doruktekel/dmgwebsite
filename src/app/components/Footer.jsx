@@ -25,7 +25,7 @@ const Footer = () => {
 
           <div className="flex gap-1 items-center">
             <FaPhoneAlt />
-            <p>05324556291</p>
+            <p> 0312 472 06 03</p>
           </div>
           <div className="h-5 w-[1px] bg-slate-900  hidden md:block"></div>
 
