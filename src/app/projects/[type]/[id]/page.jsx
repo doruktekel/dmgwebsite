@@ -11,11 +11,11 @@ const Project = ({ params }) => {
   const { type, header, info, description, images } = ourData;
 
   return (
-    <div className="w-full  min-h-screen">
-      <div className=" hidden  flex-col max-w-7xl mx-auto h-[500px]  md:flex ">
+    <div className="w-full min-h-screen">
+      <div className=" hidden  flex-col max-w-7xl mx-auto h-[500px]  md:flex mb-40 ">
         <Slider itemId={id} />
       </div>
-      <div className="flex flex-col max-w-7xl mx-auto gap-8 px-5">
+      <div className="flex flex-col max-w-7xl mx-auto gap-8 px-5 ">
         <div className="flex justify-between items-center py-4 ">
           <div className="flex gap-2 items-center">
             <Link href={"/"}>
