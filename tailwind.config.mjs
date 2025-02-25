@@ -13,7 +13,7 @@ export default {
       },
       fontFamily: {
         Raleway: ["Raleway", "sans-serif"],
-        Abel: ["Abel", "serif"],
+        Poppins: ["Poppins", "serif"],
       },
     },
   },

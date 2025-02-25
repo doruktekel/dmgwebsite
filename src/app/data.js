@@ -1,32 +1,4 @@
 export const allData = [
-  // {
-  //   id: "0009",
-  //   header: "deneme deneme",
-  //   info: "Tailored to its users and their activities, allows invest each euro in what you really need, the most economical way of making architecture.lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc. Nullam lorem",
-  //   description:
-  //     "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc. Nullam lorem lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc. Nullam loremlorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc. Nullam loremlorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc. Nullam loremlorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc. Nullam loremlorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc. Nullam loremlorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc. Nullam loremlorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc. Nullam loremvlorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc. Nullam lorem lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc. Nullam lorem lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc. Nullam loremlorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc. Nullam loremlorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc. Nullam loremlorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc. Nullam loremlorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc. Nullam loremlorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc. Nullam loremlorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc. Nullam loremvlorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc. Nullam lorem  ",
-  //   type: "evler",
-  //   mainImage: "/1.jpg",
-  //   images: ["/1.jpg", "/2.jpg", "/3.jpg"],
-  // },
-  // {
-  //   id: "0008",
-  //   header: "gethr5465",
-  //   info: "Tailored to its users and their activities, allows invest each euro in what you really need, the most economical way of making architecture.",
-  //   description: "",
-  //   type: "reformlar",
-  //   mainImage: "/1.jpg",
-  //   images: ["/1.jpg", "/2.jpg", "/3.jpg"],
-  // },
-  // {
-  //   id: "0007",
-  //   header: "allows inveseherht45h4t",
-  //   info: "Tailored to its users and their activities, allows invest each euro in what you really need, the most economical way of making architecture.",
-  //   description: "",
-  //   type: "evler",
-  //   mainImage: "/1.jpg",
-  //   images: ["/1.jpg", "/2.jpg", "/3.jpg"],
-  // },
   {
     id: "0006",
     header: "27728 ADA 7 PARSEL",

@@ -25,10 +25,10 @@ const Projects = () => {
           transition={{ duration: 0.5 }}
           className="flex flex-col gap-5 p-4"
         >
-          <p className="uppercase text-2xl font-semibold self-center">
-            Mimari projeler
+          <p className="text-2xl font-semibold font-Raleway self-center">
+            Mimari Projeler
           </p>
-          <p>
+          <p className="font-Poppins text-justify">
             Binalarımızın her biri kişisel ve benzersiz bir mimariye sahiptir.
             Mekanlarının keyfini çıkaracak insanların iş birliğiyle ortaya çıkan
             ekolojik ve sağlıklı el yapımı parçalar.

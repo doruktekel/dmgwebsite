@@ -57,8 +57,8 @@ export default function ContactForm() {
       onSubmit={handleSubmit}
       className="w-full mx-auto flex flex-col gap-2 "
     >
-      <p className="font-semibold text-center">Bize Ulaşın</p>
-      <p>
+      <p className=" text-center font-Poppins text-lg">Bize Ulaşın</p>
+      <p className="font-Poppins font-extralight">
         İsim <span className="text-red-600">*</span>
       </p>
       <input
@@ -69,7 +69,7 @@ export default function ContactForm() {
         className="w-full px-2 py-1 border border-gray-300  text-sm "
         required
       />
-      <p>
+      <p className="font-Poppins font-extralight">
         Telefon <span className="text-red-600">*</span>
       </p>
       <input
@@ -80,7 +80,7 @@ export default function ContactForm() {
         className="w-full px-2 py-1 border border-gray-300  text-sm "
         required
       />
-      <p>
+      <p className="font-Poppins font-extralight">
         Email <span className="text-red-600">*</span>
       </p>
       <input
@@ -91,7 +91,7 @@ export default function ContactForm() {
         className="w-full px-2 py-1 border border-gray-300  text-sm "
         required
       />
-      <p>
+      <p className="font-Poppins font-extralight">
         Mesaj <span className="text-red-600">*</span>
       </p>
       <textarea
@@ -103,7 +103,7 @@ export default function ContactForm() {
       />
       <button
         type="submit"
-        className=" max-w-40 bg-gray-800 text-white p-2 rounded disabled:bg-gray-400"
+        className=" max-w-40 bg-gray-800 text-white p-2 rounded disabled:bg-gray-400  font-Poppins "
         disabled={loading}
       >
         {loading ? "Gönderiliyor..." : "Gönder"}

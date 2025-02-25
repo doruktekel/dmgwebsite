@@ -26,8 +26,8 @@ const Projects = () => {
           transition={{ duration: 0.5 }}
           className="flex flex-col text-center gap-6 p-4"
         >
-          <p className="font-Raleway font-semibold text-xl">DMG Projeler</p>
-          <p className="font-Abel font-semibold text-xl ">
+          <p className="font-Raleway font-semibold text-2xl">DMG Projeler</p>
+          <p className="font-Poppins text-justify ">
             Firmamız alt yapı , üst yapı ve ince işler konusunda deneyimli
             yönetici ve tecrübeli şantiye kadrosu ile inşaat sektöründe söz
             sahibi olmayı benimsemiştir. Firmamız alt yapı ve üst yapı alanında

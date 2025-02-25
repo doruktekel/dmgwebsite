@@ -1,4 +1,3 @@
-import BasindaBiz from "./components/BasindaBiz";
 import MainSlider from "./components/MainSlider";
 import Projects from "./components/Projects";
 
@@ -9,7 +8,6 @@ export default function Home() {
         <MainSlider />
       </div>
       <Projects />
-      <BasindaBiz />
     </div>
   );
 }

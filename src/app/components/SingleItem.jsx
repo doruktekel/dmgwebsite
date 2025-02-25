@@ -23,27 +23,31 @@ const SingleItem = ({ data }) => {
           src={mainImage}
           alt={header}
           width={400}
-          height={200}
+          height={300}
           objectFit="cover"
+          className="aspect-square w-[400px] h-[300px] object-cover"
         />
       </Link>
       <div className="flex flex-col gap-4 mt-2 items-center sm:items-start">
         <div className="flex items-center gap-4">
-          <p>{type === "taahhut" ? "Taahhüt" : "Konut"}</p>
+          <p className="font-Raleway">
+            {type === "taahhut" ? "Taahhüt" : "Konut"}
+          </p>
           <div className="w-2 h-2 bg-slate-800"></div>
         </div>
 
         <Link href={"/projects/" + type + "/" + header}>
-          <p>{header}</p>
+          <p className="font-Raleway ">{header}</p>
         </Link>
 
-        <p className="line-clamp-2">{info}</p>
+        <p className="line-clamp-2 font-Raleway ">{info}</p>
         <div className="w-28 h-[1px] bg-slate-800"></div>
+
         <Link
           href={"/projects/" + type + "/" + id}
           className="flex items-center gap-2"
         >
-          <p>Detayli Bilgi</p>
+          <p className="font-Poppins">Detaylı Bilgi</p>
           <FaArrowRight color="black" />
         </Link>
       </div>
