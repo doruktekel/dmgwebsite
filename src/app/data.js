@@ -1,11 +1,25 @@
 export const allData = [
   {
+    id: "0007",
+    header: "İncek Konut Projesi",
+    info: "",
+    description: "",
+    type: "konut",
+    mainImage: "/Incek_konut_03.webp",
+    images: [
+      "/Incek_konut_01.webp",
+      "/Incek_konut_02.webp",
+      "/Incek_konut_03.webp",
+      "/Incek_konut_04.webp",
+    ],
+  },
+  {
     id: "0006",
-    header: "27728 ADA 7 PARSEL",
+    header: "27728 Ada 7 Parsel",
     info: "9 Daire",
     description: "",
     type: "konut",
-    mainImage: "/Keklik_pinari_04.webp",
+    mainImage: "/Keklik_pinari_02.webp",
     images: [
       "/Keklik_pinari_01.webp",
       "/Keklik_pinari_02.webp",
@@ -36,7 +50,7 @@ export const allData = [
     mainImage: "/TobbEtu_kampusu_cevre_duzenlemesi_01.webp",
     images: [
       "/TobbEtu_kampusu_cevre_duzenlemesi_01.webp",
-      "TobbEtu_kampusu_cevre_duzenlemesi_02.webp",
+      "/TobbEtu_kampusu_cevre_duzenlemesi_02.webp",
     ],
   },
   {
@@ -71,7 +85,7 @@ export const allData = [
   },
   {
     id: "0001",
-    header: "TOBB Karaman Fen Lisesi Çevre Düzenlemesi İnşaatı ",
+    header: "TOBB Karaman Fen Lisesi Çevre Düzenlemesi İnşaatı",
     info: "İşveren: Türkiye Odalar ve Borsalar Birliği",
     description: "",
     type: "taahhut",

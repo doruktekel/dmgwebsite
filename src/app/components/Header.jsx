@@ -18,10 +18,15 @@ const Header = () => {
   };
 
   return (
-    <div className="sticky top-0 w-full bg-white shadow-lg text-slate-900 p-10 z-50">
+    <div className="sticky top-0 w-full bg-white shadow-lg text-slate-900 p-4 z-50">
       <div className="flex items-center justify-between max-w-7xl mx-auto">
         <Link href={"/"} className="hover:opacity-50 duration-300 ease-in-out ">
-          <Image src={"/logo.png"} width={100} height={100} alt="Dmg_logo" />
+          <Image
+            src={"/Real_Logo_01.png"}
+            width={220}
+            height={100}
+            alt="Dmg_logo"
+          />
         </Link>
 
         <ul className="hidden md:flex items-center space-x-8">

@@ -30,13 +30,8 @@ const TypePage = () => {
     <div className="w-full">
       <div className="max-w-7xl mx-auto flex flex-col gap-2 md:gap-4 mt-10 ">
         <div className="flex flex-col gap-5 p-4">
-          <p className="uppercase">
-            {activeType === "taahhut" ? "Taahhut Projeleri" : "Konut Projeleri"}
-          </p>
-          <p>
-            Binalarımızın her biri kişisel ve benzersiz bir mimariye sahiptir.
-            Mekanlarının keyfini çıkaracak insanların iş birliğiyle ortaya çıkan
-            ekolojik ve sağlıklı el yapımı parçalar.
+          <p className="text-2xl font-semibold font-Raleway self-center">
+            Mimari Projeler
           </p>
         </div>
         <hr />

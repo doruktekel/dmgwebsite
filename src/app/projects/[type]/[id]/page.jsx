@@ -19,62 +19,50 @@ const Project = ({ params }) => {
         <div className="flex justify-between items-center py-4 ">
           <div className="flex gap-2 items-center">
             <Link href={"/"}>
-              <p>Home</p>
+              <p className="font-Poppins">Home</p>
             </Link>
             <span className="text-slate-500">/</span>
             <Link href={"/projects"}>
-              <p>Projeler</p>
+              <p className="font-Poppins">Projeler</p>
             </Link>
             <span className="text-slate-500">/</span>
             <Link href={`/projects/${type}`}>
-              <p>
+              <p className="font-Poppins">
                 {type.toString().slice(0, 1).toUpperCase() +
                   type.toString().slice(1)}
               </p>
             </Link>
             <span className="text-slate-500">/</span>
             <Link href={`/projects/${type}/${id}`}>
-              <p>{header}</p>
+              <p className="font-Poppins">{header}</p>
             </Link>
           </div>
           <Link
             className="flex gap-2 justify-center items-center hover:opacity-50 duration-300 ease-in-out"
             href="/projects"
           >
-            <BsArrowLeft className="text-xl" />
-            <p>Listelere Geri Don</p>
+            <BsArrowLeft className="text-2xl" />
+            <p className="font-Poppins">Listelere Geri Dön</p>
           </Link>
         </div>
         <div className="flex flex-col gap-4">
-          <p className="text-center text-2xl">
-            {header.toString().toUpperCase()}
-          </p>
-          {/* <div className="w-full h-[0.5px] bg-black"></div> */}
+          <p className="text-center text-2xl font-Poppins ">{header}</p>
           <hr />
         </div>
-        <div className="grid grid-cols-1 gap-1 md:grid-cols-2 md:gap-2 ">
+        <div className=" flex flex-col gap-10 ">
           <div className="flex flex-col gap-4">
-            <p className="text-lg text-justify">{info}</p>
-            <div>
-              <p className="text-xl">
-                Description yada projenin butun detaylari teknik vs
-              </p>
-              {/* <div className="w-full h-[0.5px] bg-black"></div> */}
-              <hr />
-            </div>
-
-            <p className="text-lg text-justify">{description}</p>
+            <p className="text-lg text-justify font-Poppins">{info}</p>
+            <p className="text-lg text-justify font-Poppins">{description}</p>
           </div>
-          <div className="flex flex-col gap-4 items-center md:items-end">
+          <div className="grid grid-cols-1 gap-1 sm:grid-cols-2 sm:gap-2 lg:grid-cols-3 lg:gap-3 ">
             {images?.map((image, index) => (
               <Image
                 key={index}
                 src={image}
-                width={600}
+                width={500}
                 height={400}
-                objectFit="cover"
                 alt={header}
-                className="pointer-events-none"
+                className="pointer-events-none aspect-square object-cover shadow-md"
               />
             ))}
           </div>

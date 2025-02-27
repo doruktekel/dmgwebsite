@@ -28,11 +28,6 @@ const Projects = () => {
           <p className="text-2xl font-semibold font-Raleway self-center">
             Mimari Projeler
           </p>
-          <p className="font-Poppins text-justify">
-            Binalarımızın her biri kişisel ve benzersiz bir mimariye sahiptir.
-            Mekanlarının keyfini çıkaracak insanların iş birliğiyle ortaya çıkan
-            ekolojik ve sağlıklı el yapımı parçalar.
-          </p>
         </motion.div>
         <hr />
         <div className="p-4 flex gap-4">

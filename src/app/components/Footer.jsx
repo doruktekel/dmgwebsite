@@ -44,7 +44,7 @@ const Footer = () => {
       </div>
       <div className="max-w-7xl mx-auto flex justify-center items-center mb-12 mt-4">
         <Image
-          src={"/Logo_XL.png"}
+          src={"/Real_Logo_01.png"}
           width={300}
           height={150}
           alt="Dmg_big_logo"

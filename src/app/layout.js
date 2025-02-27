@@ -17,13 +17,16 @@ const raleway = Raleway({
 });
 
 export const metadata = {
-  title: "DMG",
+  title: "DMG İnşaat & Proje",
   description: "DMG İNŞAAT PROJE MÜŞAVİRLİK TAAHÜT SANAYİ VE TİC.LTD.ŞTİ.",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/Real_mini_logo.png" type="image/png" />
+      </head>
       <body className={`${raleway.className} ${poppins.className}`}>
         {" "}
         {/* Hem Abel hem Raleway className ekleniyor */}
