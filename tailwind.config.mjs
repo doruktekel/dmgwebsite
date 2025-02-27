@@ -10,6 +10,7 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        logoColor: "#126E9E",
       },
       fontFamily: {
         Raleway: ["Raleway", "sans-serif"],

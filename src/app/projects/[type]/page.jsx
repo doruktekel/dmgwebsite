@@ -30,7 +30,9 @@ const TypePage = () => {
     <div className="w-full">
       <div className="max-w-7xl mx-auto flex flex-col gap-2 md:gap-4 mt-10 ">
         <div className="flex flex-col gap-5 p-4">
-          <p className="uppercase">Mimari projeler</p>
+          <p className="uppercase">
+            {activeType === "taahhut" ? "Taahhut Projeleri" : "Konut Projeleri"}
+          </p>
           <p>
             Binalarımızın her biri kişisel ve benzersiz bir mimariye sahiptir.
             Mekanlarının keyfini çıkaracak insanların iş birliğiyle ortaya çıkan
@@ -42,9 +44,9 @@ const TypePage = () => {
           <button
             className={` ${
               activeType === "hepsi"
-                ? "text-white bg-slate-700"
+                ? "text-white bg-logoColor"
                 : "bg-gray-100 text-black"
-            }  px-2 py-1 text-sm hover:text-white hover:bg-slate-700 `}
+            }  px-2 py-1 text-sm hover:text-white hover:bg-logoColor `}
             onClick={() => {
               setActiveType("hepsi");
               router.push("/projects");
@@ -55,9 +57,9 @@ const TypePage = () => {
           <button
             className={` ${
               activeType === "taahhut"
-                ? "text-white bg-slate-700"
+                ? "text-white bg-logoColor"
                 : "bg-gray-100 text-black"
-            }  px-2 py-1 text-sm hover:text-white hover:bg-slate-700 `}
+            }  px-2 py-1 text-sm hover:text-white hover:bg-logoColor `}
             onClick={() => filterItems("taahhut")}
           >
             Taahhütler
@@ -65,9 +67,9 @@ const TypePage = () => {
           <button
             className={` ${
               activeType === "konut"
-                ? "text-white bg-slate-700"
+                ? "text-white bg-logoColor"
                 : "bg-gray-100 text-black"
-            }  px-2 py-1 text-sm hover:text-white hover:bg-slate-700 `}
+            }  px-2 py-1 text-sm hover:text-white hover:bg-logoColor `}
             onClick={() => filterItems("konut")}
           >
             Konutlar

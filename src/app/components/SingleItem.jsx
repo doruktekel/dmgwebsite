@@ -33,7 +33,7 @@ const SingleItem = ({ data }) => {
           <p className="font-Raleway">
             {type === "taahhut" ? "Taahhüt" : "Konut"}
           </p>
-          <div className="w-2 h-2 bg-slate-800"></div>
+          <div className="w-2 h-2 bg-logoColor"></div>
         </div>
 
         <Link href={"/projects/" + type + "/" + header}>
@@ -48,7 +48,7 @@ const SingleItem = ({ data }) => {
           className="flex items-center gap-2"
         >
           <p className="font-Poppins">Detaylı Bilgi</p>
-          <FaArrowRight color="black" />
+          <FaArrowRight />
         </Link>
       </div>
     </motion.div>

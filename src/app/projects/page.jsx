@@ -39,9 +39,9 @@ const Projects = () => {
           <button
             className={` ${
               activeType === "taahhut"
-                ? "text-white bg-slate-700"
+                ? "text-white bg-logoColor"
                 : "bg-gray-100 text-black"
-            }  px-2 py-1 text-sm hover:text-white hover:bg-slate-700 `}
+            }  px-2 py-1 text-sm hover:text-white hover:bg-logoColor `}
             onClick={() => handleFilter("taahhut")}
           >
             Taahhütler
@@ -49,9 +49,9 @@ const Projects = () => {
           <button
             className={` ${
               activeType === "konut"
-                ? "text-white bg-slate-700"
+                ? "text-white bg-logoColor"
                 : "bg-gray-100 text-black"
-            }  px-2 py-1 text-sm hover:text-white hover:bg-slate-700 `}
+            }  px-2 py-1 text-sm hover:text-white hover:bg-logoColor `}
             onClick={() => handleFilter("konut")}
           >
             Konutlar

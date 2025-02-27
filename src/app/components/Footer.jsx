@@ -1,13 +1,13 @@
-import { FaLinkedin } from "@react-icons/all-files/fa/FaLinkedin";
 import { FaPhoneAlt } from "@react-icons/all-files/fa/FaPhoneAlt";
 import { MdEmail } from "@react-icons/all-files/md/MdEmail";
 import { FaLocationArrow } from "@react-icons/all-files/fa/FaLocationArrow";
 import Link from "next/link";
+import Image from "next/image";
 
 const Footer = () => {
   return (
     <div className="w-full mt-24">
-      <div className="max-w-7xl mx-auto flex flex-col md:flex-row md:items-center md:justify-between">
+      <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-center">
         <div className="flex flex-col md:flex-row gap-2 py-4 items-center justify-center">
           <div className="flex gap-1 items-center">
             <Link
@@ -18,7 +18,7 @@ const Footer = () => {
               target="_blank"
               className="flex gap-1 items-center"
             >
-              <FaLocationArrow />
+              <FaLocationArrow className="text-logoColor" />
               <p>
                 AŞAĞIÖVEÇLER MAHALLESİ 1333. CADDE NO : 15/2 – ÇANKAYA/ANKARA
               </p>
@@ -27,46 +27,28 @@ const Footer = () => {
           <div className="h-5 w-[1px] bg-slate-900  hidden md:block"></div>
 
           <div className="flex gap-1 items-center">
-            <FaPhoneAlt />
+            <FaPhoneAlt className="text-logoColor" />
             <p> 0312 472 06 03</p>
           </div>
           <div className="h-5 w-[1px] bg-slate-900  hidden md:block"></div>
 
           <div className="flex gap-1 items-center">
-            <MdEmail />
+            <MdEmail className="text-logoColor" />
             <p>info@dmginsaat.com</p>
           </div>
         </div>
-        <div className="items-center justify-center text-center">
-          <p className=" font-bold  text-lg font-Raleway">DMG İnşaat</p>
-        </div>
-        {/* <div className="flex gap-2 py-4 items-center justify-center">
-          <Link
-            href={"https://www.linkedin.com/in/doruktekel/"}
-            className="text-blue-500 hover:text-blue-800 "
-            target="_blank"
-          >
-            <FaLinkedin size={25} />
-          </Link>
-          <Link
-            href={"https://www.linkedin.com/in/doruktekel/"}
-            className="text-blue-500 hover:text-blue-800 "
-            target="_blank"
-          >
-            <FaLinkedin size={25} />
-          </Link>
-          <Link
-            href={"https://www.linkedin.com/in/doruktekel/"}
-            className="text-blue-500 hover:text-blue-800 "
-            target="_blank"
-          >
-            <FaLinkedin size={25} />
-          </Link>
-        </div> */}
       </div>
 
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row md:justify-between mb-4">
         <div className="w-full h-[0.5px] bg-black"></div>
+      </div>
+      <div className="max-w-7xl mx-auto flex justify-center items-center mb-12 mt-4">
+        <Image
+          src={"/Logo_XL.png"}
+          width={300}
+          height={150}
+          alt="Dmg_big_logo"
+        />
       </div>
       {/* <div className="max-w-7xl mx-auto flex justify-center items-center mb-4">
         <p>MİMARLIK + TASARIM + FİKİRLER</p>

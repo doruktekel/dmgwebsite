@@ -4,6 +4,7 @@ import Link from "next/link";
 import { MdClose } from "@react-icons/all-files/md/MdClose";
 import { MdMenu } from "@react-icons/all-files/md/MdMenu";
 import { useRef } from "react";
+import Image from "next/image";
 
 const Header = () => {
   const miniMenuRef = useRef();
@@ -20,8 +21,9 @@ const Header = () => {
     <div className="sticky top-0 w-full bg-white shadow-lg text-slate-900 p-10 z-50">
       <div className="flex items-center justify-between max-w-7xl mx-auto">
         <Link href={"/"} className="hover:opacity-50 duration-300 ease-in-out ">
-          LOGO
+          <Image src={"/logo.png"} width={100} height={100} alt="Dmg_logo" />
         </Link>
+
         <ul className="hidden md:flex items-center space-x-8">
           <li>
             <Link

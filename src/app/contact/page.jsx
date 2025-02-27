@@ -1,12 +1,19 @@
-import Map from "../components/Map";
+"use client";
 
+import Map from "../components/Map";
 import ContactForm from "../components/ContactForm";
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 const Contact = () => {
   return (
     <div className="w-full">
-      <div className="max-w-7xl mx-auto flex flex-col gap-6 md:gap-4 mt-10 px-10">
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5 }}
+        className="max-w-7xl mx-auto flex flex-col gap-6 md:gap-4 mt-10 px-10"
+      >
         <p className="text-2xl font-semibold font-Raleway self-center">
           İletişim
         </p>
@@ -42,7 +49,7 @@ const Contact = () => {
         </div>
         <hr />
         <Map />
-      </div>
+      </motion.div>
     </div>
   );
 };
