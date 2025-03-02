@@ -43,7 +43,7 @@ const Header = () => {
               href={"/info"}
               className="hover:opacity-50 duration-300 ease-in-out "
             >
-              <p className=" font-semibold  text-xl font-Raleway">HAKKIMIZDA</p>
+              <p className=" font-semibold  text-xl font-Raleway">HAKKIMIZD</p>
             </Link>
           </li>
           <li>
