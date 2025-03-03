@@ -17,11 +17,29 @@ const raleway = Raleway({
 });
 
 export const metadata = {
-  title: "DMG İnşaat & Proje",
-  description: "DMG İNŞAAT PROJE MÜŞAVİRLİK TAAHÜT SANAYİ VE TİC.LTD.ŞTİ.",
+  title: "DMG İNŞAAT PROJE MÜŞAVİRLİK TAAHÜT SANAYİ VE TİC.LTD.ŞTİ.",
+  description:
+    "DMG İnşaat 2015 yılında kurulmuş dinamik ve yenilikçi bir inşaat firmasıdır. Kuruluşumuzdan bu yana, inşaat sektöründe sağlam ve estetik yapıların hayata geçirilmesi için çalışmaktayız. Misyonumuz ve vizyonumuz; inşaat işinde uzmanlaşarak kaliteli, güvenilir ve modern projeler gerçekleştirmek, müşteri memnuniyetini en üst düzeye çıkarmaktır.Firmamız, inşaat ve dekorasyon alanlarında sunduğu geniş hizmet yelpazesi ile sektörün farklı ihtiyaçlarına cevap vermektedir. Her projemizde titizlikle çalışarak, detaylara verdiğimiz önem sayesinde fonksiyonel ve estetik mekanlar oluşturuyoruz.",
   icons: {
     icon: "/Real_mini_logo.png",
   },
+  keywords: [
+    "inşaat",
+    "proje",
+    "yapı",
+    "mimari",
+    "mimarlık",
+    "dekorasyon",
+    "estetik",
+    "mekan",
+    "yapı",
+    "altyapı",
+    "üstyapı",
+    "TürkiyeOdalarveBorsalarBirliği",
+    "AnkaraBüyükşehirBelediyesi,",
+    "TOBB",
+    "TOBB ETÜ",
+  ],
 };
 
 export default function RootLayout({ children }) {

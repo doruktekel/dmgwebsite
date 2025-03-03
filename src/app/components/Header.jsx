@@ -18,8 +18,8 @@ const Header = () => {
   };
 
   return (
-    <div className="sticky top-0 w-full bg-white shadow-lg text-slate-900 p-4 z-50">
-      <div className="flex items-center justify-between max-w-7xl mx-auto">
+    <header className="sticky top-0 w-full bg-white shadow-lg text-slate-900 p-4 z-50">
+      <nav className="flex items-center justify-between max-w-7xl mx-auto">
         <Link href={"/"} className="hover:opacity-50 duration-300 ease-in-out ">
           <Image
             src={"/Real_Logo_01.png"}
@@ -35,7 +35,7 @@ const Header = () => {
               href={"/projects"}
               className="hover:opacity-50 duration-300 ease-in-out "
             >
-              <p className="font-semibold text-xl font-Raleway">PROJELER</p>
+              <h1 className="font-semibold text-xl font-Raleway">PROJELER</h1>
             </Link>
           </li>
           <li>
@@ -43,7 +43,9 @@ const Header = () => {
               href={"/info"}
               className="hover:opacity-50 duration-300 ease-in-out "
             >
-              <p className=" font-semibold  text-xl font-Raleway">HAKKIMIZDA</p>
+              <h1 className=" font-semibold  text-xl font-Raleway">
+                HAKKIMIZDA
+              </h1>
             </Link>
           </li>
           <li>
@@ -51,7 +53,7 @@ const Header = () => {
               href={"/contact"}
               className="hover:opacity-50 duration-300 ease-in-out "
             >
-              <p className="font-semibold text-xl font-Raleway">İLETİŞİM</p>
+              <h1 className="font-semibold text-xl font-Raleway">İLETİŞİM</h1>
             </Link>
           </li>
         </ul>
@@ -76,9 +78,9 @@ const Header = () => {
                 className="hover:opacity-50 duration-300 ease-in-out "
                 onClick={closeMiniMenu}
               >
-                <p className="font-semibold text-lg font-Raleway text-gray-50">
+                <h1 className="font-semibold text-lg font-Raleway text-gray-50">
                   ANA SAYFA
-                </p>
+                </h1>
               </Link>
             </li>
             <li>
@@ -87,9 +89,9 @@ const Header = () => {
                 className="hover:opacity-50 duration-300 ease-in-out "
                 onClick={closeMiniMenu}
               >
-                <p className="font-semibold text-lg font-Raleway text-gray-50">
+                <h1 className="font-semibold text-lg font-Raleway text-gray-50">
                   PROJELER
-                </p>
+                </h1>
               </Link>
             </li>
             <li>
@@ -98,9 +100,9 @@ const Header = () => {
                 className="hover:opacity-50 duration-300 ease-in-out "
                 onClick={closeMiniMenu}
               >
-                <p className=" font-semibold  text-lg font-Raleway text-gray-50">
+                <h1 className=" font-semibold  text-lg font-Raleway text-gray-50">
                   HAKKIMIZDA
-                </p>
+                </h1>
               </Link>
             </li>
             <li>
@@ -109,15 +111,15 @@ const Header = () => {
                 className="hover:opacity-50 duration-300 ease-in-out "
                 onClick={closeMiniMenu}
               >
-                <p className="font-semibold text-lg font-Raleway text-gray-50">
+                <h1 className="font-semibold text-lg font-Raleway text-gray-50">
                   İLETİŞİM
-                </p>
+                </h1>
               </Link>
             </li>
           </ul>
         </div>
-      </div>
-    </div>
+      </nav>
+    </header>
   );
 };
 

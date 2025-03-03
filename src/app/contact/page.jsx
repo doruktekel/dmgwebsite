@@ -14,9 +14,9 @@ const Contact = () => {
         transition={{ duration: 0.5 }}
         className="max-w-7xl mx-auto flex flex-col gap-6 md:gap-4 mt-10 px-10"
       >
-        <p className="text-2xl font-semibold font-Raleway self-center">
+        <h1 className="text-2xl font-semibold font-Raleway self-center">
           İletişim
-        </p>
+        </h1>
         <hr />
 
         <div className="flex flex-col gap-6 md:flex-row  md:gap-12 mt-5">

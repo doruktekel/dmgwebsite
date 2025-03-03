@@ -26,15 +26,15 @@ const Projects = () => {
           transition={{ duration: 0.5 }}
           className="flex flex-col text-center gap-6 p-4"
         >
-          <p className="font-Raleway font-semibold text-2xl">DMG Projeler</p>
-          <p className="font-Poppins text-justify ">
+          <h1 className="font-Raleway font-semibold text-2xl">DMG Projeler</h1>
+          <h2 className="font-Poppins text-justify ">
             Firmamız alt yapı , üst yapı ve ince işler konusunda deneyimli
             yönetici ve tecrübeli şantiye kadrosu ile inşaat sektöründe söz
             sahibi olmayı benimsemiştir. Firmamız alt yapı ve üst yapı alanında
             Türkiye Odalar ve Borsalar Birliği , Ankara Büyükşehir Belediyesi,
             özel inşaatlar ve çeşitli kamu kurum ve kuruluşlara hizmet vermeye
             devam etmektedir.
-          </p>
+          </h2>
         </motion.div>
         <hr />
         <motion.div

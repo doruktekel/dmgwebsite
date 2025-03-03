@@ -6,7 +6,7 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <div className="w-full mt-24">
+    <footer className="w-full mt-24">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-center">
         <div className="flex flex-col md:flex-row gap-2 py-4 items-center justify-center">
           <div className="flex gap-1 items-center">
@@ -55,7 +55,7 @@ const Footer = () => {
         <div className="w-[0.5px] h-10 bg-black m-2"></div>
         <p>MİMARLIK + TASARIM + FİKİRLER</p>
       </div> */}
-    </div>
+    </footer>
   );
 };
 

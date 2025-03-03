@@ -13,9 +13,9 @@ const Information = () => {
         transition={{ duration: 0.5 }}
         className="max-w-7xl mx-auto flex flex-col gap-2 md:gap-4 mt-10 px-10"
       >
-        <p className="text-2xl font-semibold font-Raleway self-center">
+        <h1 className="text-2xl font-semibold font-Raleway self-center">
           Biz Kimiz ?
-        </p>
+        </h1>
         <hr />
         {/* <p className="text-justify abel-font">
             DMG İNŞAAT PROJE MÜŞAVİRLİK TAAHÜT SANAYİ VE TİC.LTD.ŞTİ.
