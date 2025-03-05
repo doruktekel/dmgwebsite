@@ -19,7 +19,7 @@ const Footer = () => {
               className="flex gap-1 items-center"
             >
               <FaLocationArrow className="text-logoColor" />
-              <p>
+              <p className="font-Poppins">
                 AŞAĞIÖVEÇLER MAHALLESİ 1333. CADDE NO : 15/2 – ÇANKAYA/ANKARA
               </p>
             </Link>
@@ -28,13 +28,13 @@ const Footer = () => {
 
           <div className="flex gap-1 items-center">
             <FaPhoneAlt className="text-logoColor" />
-            <p> 0312 472 06 03</p>
+            <p className="font-Poppins"> 0312 472 06 03</p>
           </div>
           <div className="h-5 w-[1px] bg-slate-900  hidden md:block"></div>
 
           <div className="flex gap-1 items-center">
             <MdEmail className="text-logoColor" />
-            <p>info@dmginsaat.com</p>
+            <p className="font-Poppins">info@dmginsaat.com</p>
           </div>
         </div>
       </div>

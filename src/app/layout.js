@@ -24,6 +24,9 @@ export const metadata = {
     icon: "/Real_mini_logo.png",
   },
   keywords: [
+    "dmg",
+    "dmginsaat",
+    "dmgproje",
     "inşaat",
     "proje",
     "yapı",

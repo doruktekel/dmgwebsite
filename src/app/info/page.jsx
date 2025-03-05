@@ -17,10 +17,6 @@ const Information = () => {
           Biz Kimiz ?
         </h1>
         <hr />
-        {/* <p className="text-justify abel-font">
-            DMG İNŞAAT PROJE MÜŞAVİRLİK TAAHÜT SANAYİ VE TİC.LTD.ŞTİ.
-          </p> */}
-
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -75,133 +71,7 @@ const Information = () => {
         </motion.div>
 
         <hr />
-        {/* <div className="flex flex-col gap-10 items-center md:flex-row md:justify-between  py-20">
-          <Image
-            src={"/biz1.jpg"}
-            layout="responsive"
-            width={800}
-            height={400}
-            objectFit="cover"
-            alt="CRISTINA MORA VE DAVID JIMENEZ"
-            className="rounded-lg shadow-lg"
-          />
-
-          <div className="flex flex-col gap-2 ">
-            <p className="uppercase text-xl ">CRISTINA MORA VE DAVID JIMENEZ</p>
-            <p className="text-justify">
-              Küçük çocuklar, mimariye adadıkları yeni hayatlarının
-              sertifikasını paylaşıyorlar. Carlos Ferrater, Trias de Bes , Joan
-              Gibernau, Elena Mateu, Gallardo -Bravo ve Pep Zazurca gibi büyük
-              referanslarla birlikte hem formasyon oluştu . Bu deneyim çok
-              etkileyici, yeni kimliği yansıtan bir mimari oluşturmak için bir
-              metodolojinin geliştirilmesine ilham veriyor.
-            </p>
-          </div>
-        </div> */}
       </motion.div>
-      {/* <motion.div
-        initial={{ opacity: 0, y: 20 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5 }}
-        className="bg-slate-50 w-full px-10"
-      >
-        <div className=" max-w-7xl mx-auto flex flex-col gap-10 items-center md:flex-row-reverse md:justify-between py-20 px-10">
-          <Image
-            src={"/biz2.jpg"}
-            layout="responsive"
-            width={600}
-            height={300}
-            objectFit="cover"
-            alt="CRISTINA MORA VE DAVID JIMENEZ"
-          />
-
-          <motion.div
-            initial={{ opacity: 0, y: 60 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.9 }}
-            className="flex flex-col gap-2 "
-          >
-            <p className="uppercase text-xl ">CRISTINA MORA VE DAVID JIMENEZ</p>
-            <p className="text-justify">
-              Küçük çocuklar, mimariye adadıkları yeni hayatlarının
-              sertifikasını paylaşıyorlar. Carlos Ferrater, Trias de Bes , Joan
-              Gibernau, Elena Mateu, Gallardo -Bravo ve Pep Zazurca gibi büyük
-              referanslarla birlikte hem formasyon oluştu . Bu deneyim çok
-              etkileyici, yeni kimliği yansıtan bir mimari oluşturmak için bir
-              metodolojinin geliştirilmesine ilham veriyor.
-            </p>
-          </motion.div>
-        </div>
-      </motion.div>
-      <motion.div
-        initial={{ opacity: 0, y: 20 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5 }}
-        className="max-w-7xl mx-auto mt-10 px-10"
-      >
-        <div className="flex flex-col gap-10 items-center md:flex-row md:justify-between  py-20">
-          <Image
-            src={"/biz3.jpg"}
-            layout="responsive"
-            width={800}
-            height={400}
-            objectFit="cover"
-            alt="CRISTINA MORA VE DAVID JIMENEZ"
-            className="rounded-lg shadow-lg"
-          />
-
-          <motion.div
-            initial={{ opacity: 0, y: 60 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.9 }}
-            className="flex flex-col gap-2 "
-          >
-            <p className="uppercase text-xl ">CRISTINA MORA VE DAVID JIMENEZ</p>
-            <p className="text-justify">
-              Küçük çocuklar, mimariye adadıkları yeni hayatlarının
-              sertifikasını paylaşıyorlar. Carlos Ferrater, Trias de Bes , Joan
-              Gibernau, Elena Mateu, Gallardo -Bravo ve Pep Zazurca gibi büyük
-              referanslarla birlikte hem formasyon oluştu . Bu deneyim çok
-              etkileyici, yeni kimliği yansıtan bir mimari oluşturmak için bir
-              metodolojinin geliştirilmesine ilham veriyor.
-            </p>
-          </motion.div>
-        </div>
-      </motion.div>
-      <motion.div
-        initial={{ opacity: 0, y: 20 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5 }}
-        className="bg-slate-50 w-full px-10"
-      >
-        <div className=" max-w-7xl mx-auto flex flex-col gap-10 items-center md:flex-row-reverse md:justify-between py-20 px-10">
-          <Image
-            src={"/biz4.jpg"}
-            layout="responsive"
-            width={600}
-            height={300}
-            objectFit="cover"
-            alt="CRISTINA MORA VE DAVID JIMENEZ"
-          />
-
-          <motion.div
-            initial={{ opacity: 0, y: 60 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.9 }}
-            className="flex flex-col gap-2 "
-          >
-            <p className="uppercase text-xl ">CRISTINA MORA VE DAVID JIMENEZ</p>
-            <p className="text-justify">
-              Küçük çocuklar, mimariye adadıkları yeni hayatlarının
-              sertifikasını paylaşıyorlar. Carlos Ferrater, Trias de Bes , Joan
-              Gibernau, Elena Mateu, Gallardo -Bravo ve Pep Zazurca gibi büyük
-              referanslarla birlikte hem formasyon oluştu . Bu deneyim çok
-              etkileyici, yeni kimliği yansıtan bir mimari oluşturmak için bir
-              metodolojinin geliştirilmesine ilham veriyor.
-            </p>
-          </motion.div>
-        </div>
-      </motion.div> */}
     </div>
   );
 };

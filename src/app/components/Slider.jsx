@@ -48,7 +48,7 @@ const Slider = ({ itemId }) => {
                 src={image}
                 alt={ourData.header}
                 layout="fill"
-                objectFit="cover"
+                style={{ objectFit: "cover" }}
                 className="pointer-events-none"
               />
             </SwiperSlide>

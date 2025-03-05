@@ -4,8 +4,8 @@ import Link from "next/link";
 import { allData } from "../../../data";
 import Image from "next/image";
 
-const Project = ({ params }) => {
-  const { id } = params;
+const Project = async ({ params }) => {
+  const { id } = await params;
   const ourData = allData.find((item) => item.id === id);
 
   const { type, header, info, description, images } = ourData;
